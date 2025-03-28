@@ -3766,6 +3766,10 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
 }
+/**************************************************
+********************Logo da pagina*****************
+***************************************************
+***************************************************/
 .navbar-brand {
   padding-top: var(--bs-navbar-brand-padding-y);
   padding-bottom: var(--bs-navbar-brand-padding-y);
