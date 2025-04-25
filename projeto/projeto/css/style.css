@@ -9,7 +9,7 @@ body{
 }
 
 .cabecario {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -59,7 +59,7 @@ html {
 
 
 .imagenLingoLeens {
-    height: 7rem;
+    height: 3rem;
 }
 
 .navegacao {
@@ -152,7 +152,7 @@ html {
 
 .conteudo h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 5rem;
     font-weight: bold;
 }
 
