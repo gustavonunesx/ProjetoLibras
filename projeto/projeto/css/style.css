@@ -157,6 +157,7 @@ html {
 }
 
 .botao {
+    font-size: 2rem;
     margin: 0;
     padding: 0.6rem 1.5rem;
     background-color: transparent;
@@ -214,6 +215,7 @@ html {
     flex-direction: column;
     gap: 1.5rem;
     margin-top: 2rem;
+    font-size: larger;
 }
 
 .secao ul {
