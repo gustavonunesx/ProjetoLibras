@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Libras</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-    
 
     <div class="meio">
   <header class="cabecario">
@@ -28,35 +28,79 @@
     <a href="#parcerias" class="botao">Junte-se a nós</a>
   </div>
 </div>
-    <section id="sobre" class="secao">
-  <h2>Sobre o App</h2>
+
+<section id="sobre" class="secao">
+  <h2><i class="fas fa-info-circle"></i> Sobre o App</h2>
   <p>
-    O LingoLeens é um aplicativo que traduz Libras (Língua Brasileira de Sinais) em tempo real utilizando a câmera do celular. Com ele, pessoas surdas e ouvintes podem se comunicar de forma mais fácil, rápida e inclusiva, em qualquer lugar.
+    O <strong>LingoLeens</strong> é um aplicativo que traduz Libras (Língua Brasileira de Sinais) em tempo real utilizando a câmera do celular. Com ele, pessoas surdas e ouvintes podem se comunicar de forma mais fácil, rápida e inclusiva, em qualquer lugar.
   </p>
 </section>
 
-    <section id="como-funciona" class="secao">
+
+<section id="como-funciona" class="secao">
   <h2>Como Funciona</h2>
-  <ol>
-    <li>Aponte a câmera para a pessoa usando Libras</li>
-    <li>O aplicativo identifica os gestos e traduz para texto ou áudio</li>
-    <li>Você pode responder usando voz ou texto, com tradução automática para Libras</li>
-  </ol>
+  <div class="como-funciona-grid">
+    <div class="como-funciona-texto">
+      <ol class="como-funciona-lista">
+        <li>
+          <i class="fas fa-camera"></i>
+          <div>
+            <strong>1. Aponte a câmera</strong><br>
+            Direcione o celular para a pessoa se comunicando em Libras.
+          </div>
+        </li>
+        <li>
+          <i class="fas fa-language"></i>
+          <div>
+            <strong>2. Tradução em tempo real</strong><br>
+            O app interpreta os gestos e exibe a tradução em texto ou voz.
+          </div>
+        </li>
+        <li>
+          <i class="fas fa-comments"></i>
+          <div>
+            <strong>3. Responda naturalmente</strong><br>
+            Você responde com voz ou texto, e o app traduz de volta para Libras.
+          </div>
+        </li>
+      </ol>
+    </div>
+    <img src="img/imagenCell.png" alt="App em uso" class="mockup-imagem">
+  </div>
 </section>
 
-    <section id="servicos" class="secao">
+
+
+<section id="servicos" class="secao">
   <h2>O que o LingoLeens oferece</h2>
-  <ul>
-    <li>Tradução em tempo real de Libras para texto e voz</li>
-    <li>Modo acessível para empresas e instituições</li>
-    <li>Interface intuitiva e fácil de usar</li>
-    <li>Compatível com Android e iOS</li>
-  </ul>
+  <div class="servicos-grid">
+    <div class="servico">
+      <i class="fas fa-language"></i>
+      <h3>Tradução em Tempo Real</h3>
+      <p>Traduza Libras em texto ou voz instantaneamente.</p>
+    </div>
+    <div class="servico">
+      <i class="fas fa-building"></i>
+      <h3>Uso Corporativo</h3>
+      <p>Modo acessível para empresas e instituições que priorizam inclusão.</p>
+    </div>
+    <div class="servico">
+      <i class="fas fa-mobile-alt"></i>
+      <h3>Interface Intuitiva</h3>
+      <p>Design pensado para facilitar a comunicação em qualquer situação.</p>
+    </div>
+    <div class="servico">
+      <i class="fab fa-android"></i>
+      <h3>Compatibilidade</h3>
+      <p>Disponível para Android e iOS com desempenho otimizado.</p>
+    </div>
+  </div>
 </section>
+
 
 
 <section class="secao" id="depoimentos">
-  <h2>O que dizem sobre o LingoLeens</h2>
+  <h2><i class="fas fa-comment-dots"></i> O que dizem sobre o LingoLeens</h2>
   <div class="depoimentos">
     <blockquote>
       “Com o LingoLeens, consegui conversar com colegas surdos do trabalho pela primeira vez. Mudou tudo.”  
@@ -66,19 +110,37 @@
       “É uma ferramenta incrível para tornar nossos serviços mais inclusivos.”  
       <span>— João Marques, gerente de RH</span>
     </blockquote>
+
+    <blockquote>
+      “Achei impressionante como o app facilita a comunicação com meus alunos. Uma ponte real entre mundos.”  
+      <span>— Carla Mendes, pedagoga</span>
+    </blockquote>
+    
+    <blockquote>
+      “Minha filha surda finalmente consegue interagir com a família sem depender de mim para traduzir. Incrível!”  
+      <span>— Diego Almeida, pai e entusiasta de tecnologia</span>
+    </blockquote>
+    
+    <blockquote>
+      “Estamos usando o LingoLeens no atendimento ao público e a diferença é visível. Mais acolhimento, mais respeito.”  
+      <span>— Vanessa Rocha, gerente de biblioteca pública</span>
+    </blockquote>
+    
   </div>
 </section>
 
-    <section id="parcerias" class="secao">
-  <h2>Seja um parceiro da inclusão</h2>
+
+<section id="parcerias" class="secao">
+  <h2><i class="fas fa-handshake"></i> Seja um parceiro da inclusão</h2>
   <p>
     Estamos buscando instituições, ONGs e desenvolvedores que compartilhem nossa missão de tornar o mundo mais acessível. Juntos, podemos transformar a comunicação e promover a igualdade.
   </p>
   <a href="#contato" class="botao">Entre em contato</a>
 </section>
 
+
 <section class="secao" id="formulario">
-  <h2>Fale com a gente</h2>
+  <h2><i class="fas fa-envelope"></i> Fale com a gente</h2>
   <form action="#" method="POST" class="formulario">
     <input type="text" name="nome" placeholder="Seu nome" required>
     <input type="email" name="email" placeholder="Seu e-mail" required>
@@ -87,11 +149,15 @@
   </form>
 </section>
 
-    <section id="contato" class="secao">
-  <h2>Contato</h2>
-  <p>Quer saber mais ou colaborar com o projeto? Envie um e-mail para: <a href="mailto:contato@lingoleens.com">contato@lingoleens.com</a></p>
+
+<section id="contato" class="secao">
+  <h2><i class="fas fa-phone-alt"></i> Contato</h2>
+  <p>Quer saber mais ou colaborar com o projeto? Envie um e-mail para: 
+    <a href="mailto:contato@lingoleens.com">contato@lingoleens.com</a>
+  </p>
 </section>
-    <footer class="rodape">
+
+<footer class="rodape">
   <p>&copy; 2025 LingoLeens. Todos os direitos reservados.</p>
   <p>Feito com inclusão e propósito.</p>
 </footer>
